@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+/*
+ * Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  /* Grid colors. */
+  --clr-grid-purple: hsl(252, 66%, 62%);
+  --clr-grid-orange: hsl(28, 89%, 67%);
+  --clr-grid-pink: hsl(0, 78%, 79%);
+  --clr-grid-red: hsl(7, 77%, 66%);
+  --clr-grid-teal: hsl(172, 46%, 57%);
+  --clr-grid-burgundy: hsl(314, 45%, 23%);
+  /* Other. */
+  --clr-black: hsl(0, 0%, 1%);
+  --clr-gray: hsl(30, 5%, 45%);
+  --clr-provincial-pink: hsl(28, 100%, 97%);
+  --clr-attribution-blue: hsl(212, 95%, 48%);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--clr-provincial-pink);
+  color: var(--clr-gray);
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__about--pfp {
+  width: 20px;
+}
