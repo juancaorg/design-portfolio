@@ -69,6 +69,12 @@ button:active {
   padding: 0.5rem 1.75rem;
 }
 
+.header__cta:hover,
+.main__header--cta:hover {
+  background-color: var(--clr-grid-purple);
+  cursor: pointer;
+}
+
 .main__about--pfp {
   width: 20px;
 }
