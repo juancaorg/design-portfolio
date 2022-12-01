@@ -1,45 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single-page design portfolio</title>
+  <meta charset="UTF-8" />
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Hack to import a favicon from another, already live website -->
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=juanca.org" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- The 'defer' boolean attribute is set to indicate to the browser that the script is meant to be executed after the document has been parsed -->
+  <script defer src="./script.js"></script>
+  <title>Single-page Design Portfolio | juanca.dev</title>
 </head>
+
 <body>
+  <header class="header">
+    <a href="/" class="header__logo"><img src="./assets/logo.svg" alt="Design logo" /></a>
+    <button class="header__cta">Free Consultation</button>
+  </header>
+  <main class="main">
+    <section class="main__intro">
+      <h1 class="main__intro--title">Design solutions made easy</h1>
+      <p class="main__intro--description">With over ten years of experience in various design disciplines, I’m your
+        one-stop shop for your design needs.</p>
+    </section>
 
-  Free Consultation
+    <section class="main__grid">
+      <div class="main__grid--graphic-design">
+        <img src="./assets/pattern-graphic-design.svg" alt="" aria-hidden="true" />
+        Graphic Design
+      </div>
+      <div class="main__grid--ui-ux">
+        <img src="./assets/pattern-ui-ux.svg" alt="" aria-hidden="true" />
+        UI/UX
+      </div>
+      <div class="main__grid--apps">
+        <img src="./assets/pattern-apps.svg" alt="" aria-hidden="true" />
+        Apps
+      </div>
+      <div class="main__grid--illustrations">
+        <img src="./assets/pattern-illustrations.svg" alt="" aria-hidden="true" />
+        Illustrations
+      </div>
+      <div class="main__grid--photography">
+        <img src="./assets/pattern-photography.svg" alt="" aria-hidden="true" />
+        Photography
+      </div>
+      <div class="main__grid--motion-graphics">
+        <img src="./assets/pattern-motion-graphics.svg" alt="" aria-hidden="true" />
+        Motion Graphics
+      </div>
+    </section>
 
-  Design solutions made easy
+    <section class="main__about">
+      <img src="./assets/image-amy.webp" alt="Amy's profile picture" class="section__about--pfp" />
+      <h2 class="main__about--title">I’m Amy, and I’d love to work on your next project</h2>
+      <p class="main__about--description">I love working with others to create beautiful design solutions. I’ve designed
+        everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+      <button class="main__about--cta">Free Consultation</button>
+    </section>
 
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+    <section class="main__work">
+      <h2 class="main__work--title">My Work</h2>
+      <div class="main__work--slider">
+        <img src="./assets/image-slide-1.jpg" alt="" aria-hidden="true" />
+      </div>
+      <button class="main__work--left"><img src="./assets/icon-arrow-left.svg" alt="" aria-hidden="true" /></button>
+      <button class="main__work--right"><img src="./assets/icon-arrow-right.svg" alt="" aria-hidden="true" /></button>
+    </section>
 
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
+    <section class="main__cta">
+      <h1 class="main__cta--title">Book a call with me</h1>
+      <p class="main__cta--description">I’d love to have a chat to see how I can help you. The best first step is for us
+        to discuss your project during a free consultation. Then we can move forward from there.</p>
+      <button class="main__cta--cta">Free Consultation</button>
+    </section>
+  </main>
 
-  I’m Amy, and I’d love to work on your next project
+  <footer class="footer">
+    <a href="/" class="footer__logo"><img src="./assets/logo.svg" alt="Design logo" /></a>
+    <button class="footer__cta">Free Consultation</button>
 
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
-
-  My Work
-
-  Book a call with me
-
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
-
-  Free Consultation
-
-  Free Consultation
-
+    <a href="https://www.frontendmentor.io/challenges/singlepage-design-portfolio-2MMhyhfKVo" rel="noopener"
+      target="_blank">Frontend Mentor</a>. Coded by
+    <a href="https://www.juanca.org" rel="noopener" target="_blank">@juancaorg</a>.
+  </footer>
 </body>
+
 </html>
