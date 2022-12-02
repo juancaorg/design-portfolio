@@ -45,7 +45,7 @@ button:active {
 }
 
 .header,
-.main__header {
+.footer__header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,12 +53,12 @@ button:active {
 }
 
 .header__logo,
-.main__header--logo {
+.footer__header--logo {
   width: 3rem;
 }
 
 .header__cta,
-.main__header--cta {
+.footer__header--cta {
   background-color: var(--clr-black);
   border-radius: 1.75rem;
   color: var(--clr-provincial-pink);
@@ -70,7 +70,7 @@ button:active {
 }
 
 .header__cta:hover,
-.main__header--cta:hover {
+.footer__header--cta:hover {
   background-color: var(--clr-grid-purple);
   cursor: pointer;
 }
