@@ -106,6 +106,44 @@ button:active {
   line-height: 1.625rem;
 }
 
+.main__about {
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+}
+
 .main__about--pfp {
-  width: 20px;
+  width: 300px;
+}
+
+.main__about--title {
+  color: var(--clr-black);
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 2.0625rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main__about--description {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.main__about--cta,
+.main__cta--cta {
+  background-color: var(--clr-grid-red);
+  border-radius: 1.75rem;
+  color: var(--clr-provincial-pink);
+  font-weight: 700;
+  font-family: var(--ff-primary);
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  padding: 0.5rem 1.75rem;
+}
+
+.main__about--cta:hover,
+.main__cta--cta:hover {
+  background-color: var(--clr-grid-orange);
+  cursor: pointer;
 }
