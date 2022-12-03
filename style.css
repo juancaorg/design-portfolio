@@ -151,3 +151,25 @@ button:active {
   background-color: var(--clr-grid-orange);
   cursor: pointer;
 }
+
+.main__cta {
+  background-color: var(--clr-black);
+  border-radius: 0.625rem;
+  color: var(--clr-provincial-pink);
+  margin-top: 6.25rem;
+  margin-bottom: 2.5rem;
+  padding: 3.0625rem 1.5rem 3rem;
+}
+
+.main__cta--title {
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 2.25rem;
+}
+
+.main__cta--description {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
