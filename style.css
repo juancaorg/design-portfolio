@@ -110,6 +110,161 @@ button:active {
   line-height: 1.625rem;
 }
 
+.main__grid {
+  width: 343px;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main__grid--graphic-design {
+  border-radius: 0.5rem;
+  background-color: var(--clr-grid-purple);
+  color: white;
+  grid-column: span 2;
+  height: 364px;
+  position: relative;
+}
+
+.main__grid--graphic-design>img {
+  position: absolute;
+  left: 191px;
+  top: 24px;
+}
+
+.main__grid--graphic-design>p {
+  position: absolute;
+  height: 30px;
+  left: 7%;
+  top: calc(50% - 30px/2 + 143px);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.main__grid--ui-ux {
+  border-radius: 0.5rem;
+  background-color: var(--clr-grid-orange);
+  color: white;
+  height: 182px;
+  position: relative;
+}
+
+.main__grid--ui-ux>img {
+  position: absolute;
+  left: 70.91px;
+  top: 24px;
+}
+
+.main__grid--ui-ux>p {
+  position: absolute;
+  height: 30px;
+  left: 14.95%;
+  top: calc(50% - 30px/2 + 52px);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.main__grid--apps {
+  border-radius: 0.5rem;
+  background-color: var(--clr-grid-pink);
+  color: white;
+  height: 182px;
+  position: relative;
+}
+
+.main__grid--apps>img {
+  position: absolute;
+  left: 70.91px;
+  top: 24px;
+}
+
+.main__grid--apps>p {
+  position: absolute;
+  height: 30px;
+  left: 14.95%;
+  top: calc(50% - 30px/2 + 52px);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.main__grid--illustrations {
+  border-radius: 0.5rem;
+  background-color: var(--clr-grid-red);
+  color: white;
+  grid-column: span 2;
+  height: 158px;
+  position: relative;
+}
+
+.main__grid--illustrations>img {
+  position: absolute;
+  left: 191.91px;
+  top: 24px;
+}
+
+.main__grid--illustrations>p {
+  position: absolute;
+  height: 30px;
+  left: 7.1%;
+  top: calc(50% - 30px/2 + 40px);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.main__grid--photography {
+  border-radius: 0.5rem;
+  background-color: var(--clr-grid-teal);
+  color: white;
+  grid-column: span 2;
+  height: 182px;
+  position: relative;
+}
+
+.main__grid--photography>img {
+  position: absolute;
+  left: 159px;
+  top: 24px;
+}
+
+.main__grid--photography>p {
+  position: absolute;
+  height: 30px;
+  left: 7%;
+  top: calc(50% - 30px/2 + 52px);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.main__grid--motion-graphics {
+  border-radius: 0.5rem;
+  background-color: var(--clr-grid-burgundy);
+  color: white;
+  grid-column: span 2;
+  height: 182px;
+  position: relative;
+}
+
+.main__grid--motion-graphics>img {
+  position: absolute;
+  left: 191px;
+  top: 24px;
+}
+
+.main__grid--motion-graphics>p {
+  position: absolute;
+  height: 30px;
+  left: 7%;
+  top: calc(50% - 30px/2 + 52px);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
 .main__about {
   margin-top: 6.25rem;
   margin-bottom: 6.25rem;
