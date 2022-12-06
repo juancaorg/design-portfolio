@@ -461,4 +461,42 @@ button:active {
     left: 181px;
     top: 24px;
   }
+
+  .main__about {
+    columns: 2;
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .main__about--pfp {
+    width: 364px;
+    margin-right: 4.3125rem;
+  }
+
+  .main__about--info {
+    width: 339px;
+  }
+
+  .main__about--title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: start;
+  }
+
+  .main__about--description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: start;
+  }
+
+  .main__about--cta,
+  .main__cta--cta {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 0.875rem 2.8125rem;
+  }
+
+  .main__about--cta {
+    display: flex;
+  }
 }
