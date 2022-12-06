@@ -369,6 +369,7 @@ button:active {
   font-size: 0.875rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .footer__attribution a {
@@ -377,4 +378,27 @@ button:active {
 
 .footer__attribution a:hover {
   color: var(--clr-grid-purple);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-top: 2.125rem;
+  }
+
+  .header,
+  .footer__header {
+    column-gap: 24.8125rem;
+  }
+
+  .header__logo,
+  .footer__header--logo {
+    width: 4rem;
+  }
+
+  .header__cta,
+  .footer__header--cta {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 0.875rem 2.8125rem;
+  }
 }
