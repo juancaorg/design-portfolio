@@ -401,4 +401,25 @@ button:active {
     line-height: 1.75rem;
     padding: 0.875rem 2.8125rem;
   }
+
+  .main {
+    max-width: 690px;
+  }
+
+  .main__intro {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .main__intro--title {
+    font-size: 2.75rem;
+    line-height: 3.4375rem;
+    margin-bottom: 1.6875rem;
+  }
+
+  .main__intro--description {
+    max-width: 573px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
