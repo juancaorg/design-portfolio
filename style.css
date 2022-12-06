@@ -422,4 +422,43 @@ button:active {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .main__grid {
+    width: 690px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main__grid--graphic-design {
+    grid-row: span 2;
+  }
+
+  .main__grid--graphic-design>img {
+    left: 181px;
+    top: 24px;
+  }
+
+  .main__grid--ui-ux>img {
+    left: 69.91px;
+    top: 24px;
+  }
+
+  .main__grid--apps>img {
+    left: 69.87px;
+    top: 24px;
+  }
+
+  .main__grid--illustrations>img {
+    left: 186.91px;
+    top: 24px;
+  }
+
+  .main__grid--photography>img {
+    left: 149px;
+    top: 24px;
+  }
+
+  .main__grid--motion-graphics>img {
+    left: 181px;
+    top: 24px;
+  }
 }
