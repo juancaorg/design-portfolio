@@ -499,4 +499,19 @@ button:active {
   .main__about--cta {
     display: flex;
   }
+
+  .main__work--title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .main__work--slider {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .main__work--slider>img {
+    border-radius: 0.625rem;
+    width: 540px;
+  }
 }
