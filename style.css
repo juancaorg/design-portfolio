@@ -475,6 +475,9 @@ button:active {
 
   .main__about--info {
     width: 339px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 
   .main__about--title {
@@ -494,10 +497,7 @@ button:active {
     font-size: 1rem;
     line-height: 1.75rem;
     padding: 0.875rem 2.8125rem;
-  }
-
-  .main__about--cta {
-    display: flex;
+    width: 228px;
   }
 
   .main__work--title {
@@ -661,5 +661,31 @@ button:active {
     height: 30px;
     left: 6.78%;
     top: calc(50% - 30px/2 + 40px);
+  }
+
+  .main__about {
+    margin-top: 8.5rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .main__about--pfp {
+    width: 445px;
+    margin-right: 7.8125rem;
+  }
+
+  .main__about--info {
+    width: 540px;
+  }
+
+  .main__about--title {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+  }
+
+  .main__about--description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 2.125rem;
+    margin-bottom: 2rem;
   }
 }
