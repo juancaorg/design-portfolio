@@ -546,4 +546,23 @@ button:active {
   .footer__header {
     column-gap: 51.1875rem;
   }
+
+  .main {
+    max-width: 751px;
+  }
+
+  .main__intro {
+    margin-top: 4.125rem;
+    margin-bottom: 5rem;
+  }
+
+  .main__intro--title {
+    font-size: 3.5rem;
+    line-height: 4.4375rem;
+    margin-bottom: 1.4375rem;
+  }
+
+  .main__intro--description {
+    max-width: 730px;
+  }
 }
