@@ -532,4 +532,10 @@ button:active {
     margin-top: 1.625rem;
     margin-bottom: 1.625rem;
   }
+
+  .footer__attribution {
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
 }
