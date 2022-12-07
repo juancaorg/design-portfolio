@@ -539,3 +539,11 @@ button:active {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (min-width: 1270px) {
+
+  .header,
+  .footer__header {
+    column-gap: 51.1875rem;
+  }
+}
