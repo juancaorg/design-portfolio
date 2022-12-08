@@ -10,6 +10,8 @@ const nextButton = document.getElementsByClassName(
 
 // Create a media condition that targets viewports at least 768px wide
 const mediaQuery = window.matchMedia("(min-width: 768px)");
+// Save initial mediaQuery match at launch.
+let initialMediaQuery = mediaQuery.matches;
 
 // Set center slide as default slide.
 let currentSlide = 2;
@@ -79,4 +81,14 @@ prevButton.addEventListener("click", () => {
 // Next navigation button.
 nextButton.addEventListener("click", () => {
   changeSlide(currentSlide + 1);
+});
+
+// If the window resizes, make the slider move to the
+// correct position using the moveSlider function
+// and comparing it to the initialMediaQuery.
+window.addEventListener("resize", () => {
+  if (initialMediaQuery !== mediaQuery.matches) {
+    moveSlider(currentSlide);
+    initialMediaQuery = mediaQuery.matches;
+  }
 });
