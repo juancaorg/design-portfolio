@@ -38,6 +38,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 button:active {
@@ -316,6 +317,9 @@ button:active {
 .main__work--slider {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.9375rem;
 }
 
 .main__work--slider>img {
