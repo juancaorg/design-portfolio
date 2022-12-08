@@ -701,4 +701,35 @@ button:active {
   .main__work--slider>img {
     width: 540px;
   }
+
+  .main__cta {
+    width: 1110px;
+    margin-top: 5.5rem;
+    margin-bottom: 3.5rem;
+    padding: 3.5rem 4.6875rem 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .main__cta--info {
+    width: 75%;
+  }
+
+  .main__cta--title {
+    max-width: 540px;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    text-align: start;
+  }
+
+  .main__cta--description {
+    max-width: 540px;
+    margin-top: 1.5625rem;
+    text-align: start;
+  }
+
+  .main__cta--cta {
+    width: 25%;
+  }
 }
