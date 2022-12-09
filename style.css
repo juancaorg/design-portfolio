@@ -28,6 +28,15 @@
   --ff-primary: "Plus Jakarta Sans", sans-serif;
 }
 
+html {
+  /* 
+   * Fix Safari Overflow Hidden Problem.
+   * Source: 
+   * https: //stackoverflow.com/questions/32666663/overflow-x-hidden-is-not-working-in-safari
+  */
+  overflow-x: hidden;
+}
+
 body {
   min-height: 100vh;
   background-color: var(--clr-provincial-pink);
@@ -38,6 +47,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* 
+   * overflow-x: hidden;
+   * doesn't work in Safari iOS
+   * if you leave it like this. 
+  */
   overflow-x: hidden;
 }
 
