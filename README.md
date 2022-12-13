@@ -123,6 +123,7 @@ I'll build another portfolio single-page to learn more about it!
 - [Change the column order in a css grid](https://stackoverflow.com/questions/45367864/change-the-column-order-in-a-css-grid#45373587).
 - [Working with JavaScript Media Queries](https://css-tricks.com/working-with-javascript-media-queries/).
 - [overflow-x: hidden, is not working in safari](https://stackoverflow.com/questions/32666663/overflow-x-hidden-is-not-working-in-safari).
+- [CSS Transition Examples – How to Use Hover Animation, Change Opacity, and More](CSS Transition Examples – How to Use Hover Animation, Change Opacity, and More).
 
 ## Author
 
@@ -134,5 +135,7 @@ I'll build another portfolio single-page to learn more about it!
 Special thanks to [Kevin Powell](https://www.kevinpowell.co/) for sharing his CSS expertise to the public and most of it, for free.
 
 Thanks to [Warren Davies](https://alvarotrigo.com/blog/javascript-slider-how-to-make-one/) for his JS expertise.
+
+Thanks to [Catherine Mitagvaria](https://github.com/catherineisonline) for her transitions feedback. Now this has been fixed!
 
 And of course, all the [Stack Overflow](https://stackoverflow.com/) and [MDN](https://developer.mozilla.org/en-US/) contributors!
