@@ -123,7 +123,7 @@ I'll build another portfolio single-page to learn more about it!
 - [Change the column order in a css grid](https://stackoverflow.com/questions/45367864/change-the-column-order-in-a-css-grid#45373587).
 - [Working with JavaScript Media Queries](https://css-tricks.com/working-with-javascript-media-queries/).
 - [overflow-x: hidden, is not working in safari](https://stackoverflow.com/questions/32666663/overflow-x-hidden-is-not-working-in-safari).
-- [CSS Transition Examples – How to Use Hover Animation, Change Opacity, and More](CSS Transition Examples – How to Use Hover Animation, Change Opacity, and More).
+- [CSS Transition Examples – How to Use Hover Animation, Change Opacity, and More](https://www.freecodecamp.org/news/css-transition-examples/).
 
 ## Author
 
