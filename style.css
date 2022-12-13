@@ -339,6 +339,7 @@ button:active {
   display: flex;
   flex-direction: row;
   column-gap: 0.9375rem;
+  transition: 200ms linear;
 }
 
 .main__work--slider>img {
