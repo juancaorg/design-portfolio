@@ -55,8 +55,13 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  transition: 100ms linear;
+}
+
 button:active {
   transform: translateY(2px);
+  transition: 20ms linear;
 }
 
 .header {
