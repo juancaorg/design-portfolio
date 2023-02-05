@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/juancaorg/design-portfolio-sp)
+- Solution URL: [GitHub Repository](https://github.com/juancaorg/design-portfolio)
 - Live Site URL: [designportfolio.juanca.dev](https://designportfolio.juanca.dev/)
 
 ## My process
